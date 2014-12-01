@@ -7,7 +7,7 @@
     </a>
     @endif
     <h2>{{ $product->product_name }}</h2>
-    <h3 class="red">{{ money($product->product_cost) }} per night</h3>
+    <h3 class="red">{{ money($product->product_cost) }} per day</h3>
     <p>{{ $product->excerpt }}</p>
     <a class="book" href="{{ route('show.product', ['id' => $product->id]) }}">Read More</a>
 </div>
