@@ -19,6 +19,8 @@
             {{ Form::submit() }}
 
             {{ Form::close() }}
+
+            <a href="/password/remind">Reset your password</a>
         </div>
     </div>
     <div style="clear:both;"></div>

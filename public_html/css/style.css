@@ -662,6 +662,17 @@ div.loginBox input[type=submit] {
     border-radius: 5px;
 }
 
+div.loginBox a {
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+div.loginBox a:hover {
+    text-decoration: underline;
+}
+
 form.reset label {
     display: block;
     margin-bottom: 5px;
