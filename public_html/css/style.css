@@ -633,3 +633,22 @@ ol {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+div.primary div.loginBox {
+    width: 400px;
+    padding: 40px;
+    position: relative;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+div.loginBox label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.loginBox input[type=text], div.loginBox input[type=password] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
