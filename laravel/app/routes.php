@@ -53,3 +53,6 @@ Route::get('user/{id}/bookings', ['uses' => 'UsersController@getBookings', 'as' 
 Route::post('getrates', ['uses' => 'ajaxController@getRate', 'as' => 'product.rate']);
 
 
+Route::controller('password', 'RemindersController');
+
+

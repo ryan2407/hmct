@@ -37,6 +37,7 @@ return array(
     'CreateBookingProductTable' => $baseDir . '/app/database/migrations/2014_11_02_061950_create_booking_product_table.php',
     'CreateBookingsTable' => $baseDir . '/app/database/migrations/2014_10_31_073923_create_bookings_table.php',
     'CreateCustomersTable' => $baseDir . '/app/database/migrations/2014_11_01_020653_create_customers_table.php',
+    'CreatePasswordRemindersTable' => $baseDir . '/app/database/migrations/2014_12_01_214114_create_password_reminders_table.php',
     'CreatePeakdatesTable' => $baseDir . '/app/database/migrations/2014_11_17_205320_create_peakdates_table.php',
     'CreatePeakratesTable' => $baseDir . '/app/database/migrations/2014_11_16_002719_create_peakrates_table.php',
     'CreateProductsTable' => $baseDir . '/app/database/migrations/2014_11_02_013222_create_products_table.php',
