@@ -652,3 +652,12 @@ div.loginBox input[type=text], div.loginBox input[type=password] {
     margin-bottom: 20px;
     padding: 5px;
 }
+
+div.loginBox input[type=submit] {
+    background: #29822b;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+}
