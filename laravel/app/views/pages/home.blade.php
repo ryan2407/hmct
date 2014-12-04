@@ -9,15 +9,13 @@
 @endsection
 
 @section('slideshow')
-<div class="slideshow">
+<div class="slideshow" style="position: relative;">
     <div class="slide">
-        <div class="bg" style="background: url('images/topography.jpg') repeat-x;background-size:100%;"></div>
-        <div class="container">
-            <div class="textArea">
-                <h1>ACCESS REMOTE AREAS <span class="lobster"><i>with all the mod cons</i></span></h1>
-            </div><!-- end textArea -->
-            <div class="image">
-                <img src="images/camper.png" width="415">
+        <div class="slideBg">
+            <div class="container">
+                <a href="/product/10">
+                    <img src="images/slide-text.png" style="width: 500px;margin-top: 20px;">
+                </a>
             </div>
         </div>
     </div>

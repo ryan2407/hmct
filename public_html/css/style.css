@@ -183,6 +183,13 @@ div.bg {
     z-index: -1;
 }
 
+div.slideBg {
+    background: url("../images/slide-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+
 div.slide {
     overflow: hidden;
     width: 100%;
@@ -200,7 +207,7 @@ div.slideshow {
     position: relative;
     height: 340px;
     margin-top: -20px;
-    z-index: -1;
+    z-index: 1;
 }
 
 div.slideshow h1 {
