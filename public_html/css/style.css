@@ -194,7 +194,6 @@ div.slide {
     overflow: hidden;
     width: 100%;
     position: absolute;
-    top: 20px;
     height: 350px;
 }
 
@@ -205,8 +204,7 @@ div.slide div.image {
 
 div.slideshow {
     position: relative;
-    height: 340px;
-    margin-top: -20px;
+    height: 320px;
     z-index: 1;
 }
 
