@@ -4,6 +4,7 @@
 Route::get('/', ['uses' => 'PagesController@home']);
 Route::get('about', ['uses' => 'PagesController@about']);
 Route::get('contact', ['uses' => 'PagesController@contact']);
+Route::get('rates', ['uses' => 'PagesController@rates']);
 Route::get('login', ['uses' => 'SessionsController@showLogin']);
 Route::post('login', ['uses' => 'SessionsController@login']);
 Route::get('logout', function(){

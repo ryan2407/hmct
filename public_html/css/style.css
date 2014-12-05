@@ -715,3 +715,18 @@ div.location h2 {
 div.location a {
     color: #fff;
 }
+
+table.rateTable {
+    width: 100%;
+}
+
+table.rateTable td, table.rateTable th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table.rateTable th {
+    font-weight: bold;
+    background: #f4f4f4;
+    vertical-align: middle;
+}

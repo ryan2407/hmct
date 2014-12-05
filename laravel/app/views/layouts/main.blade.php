@@ -82,6 +82,7 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About us</a></li>
+            <li><a href="/rates">Our Rates</a></li>
             <li><a href="/products">Our Campers</a></li>
             <li><a href="/contact">Contact us</a></li>
         </ul>

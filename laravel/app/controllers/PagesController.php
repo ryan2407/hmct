@@ -28,4 +28,9 @@ class PagesController extends \BaseController {
         return View::make('pages.contact');
     }
 
+    public function rates()
+    {
+        return View::make('pages.rates');
+    }
+
 }
