@@ -14,7 +14,7 @@ class ProductTest extends TestCase {
 
     public function testGetProduct()
     {
-        $repsonse = $this->action('GET', 'ProductController@show', ['id' => 1]);
+        $repsonse = $this->action('GET', 'ProductController@show', ['id' => 10]);
 
         $this->assertResponseOk();
         $this->assertViewHas('product');
@@ -43,7 +43,7 @@ class ProductTest extends TestCase {
     public function testGetsSurchargeRate()
     {
         $calculator = new \HMCT\Calculator\ProductRate(\App::make('HMCT\Products\Repo\ProductRepositoryInterface'));
-        $this->assertEquals(null, $calculator->SurchargeRate('12-10-2014, 12-11-2014', '1'));
+        $this->assertEquals(null, $calculator->SurchargeRate('02-10-2015, 02-10-2015', '10'));
     }
 
 }

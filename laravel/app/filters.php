@@ -58,6 +58,9 @@ Route::filter('admin', function(){
 
 Route::filter('owner', function($route){
     $id = $route->getParameter('id');
+    if(!Auth::check()) {
+        return Redirect::to('login');
+    }
     if( Auth::check() && Auth::user()->id != '1' && Auth::user()->id != $id) {
         // not authenticated user, so access is denied
         return Redirect::to('/products')->with('error', 'You can only view your own profile');
