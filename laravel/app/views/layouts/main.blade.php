@@ -92,7 +92,7 @@
 
 <div class="location">
     <div class="container">
-        <h2>ALL CAMPERS ARE BRISBANE METRO ONLY - <a href="/contact">SEE OUR LOCATION</a></h2>
+        <h2>ALL CAMPERS ARE LOCATED IN THE BRISBANE METRO AREA - <a href="/contact">SEE OUR LOCATION</a></h2>
     </div>
 </div>
 
