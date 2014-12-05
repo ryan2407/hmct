@@ -39,9 +39,6 @@
             book your next family trip with us! If you need any more information
             on our campers or policies, Dan is only too happy to help. Just give
             him a call on 0404 741 393. Enjoy your trip!</p>
-        <p>*Please note that we are still ironing out the bugs in our booking
-            system. If you have any issues booking, please don't hesitate to
-            give Dan a call!</p>
     </div>
 
     <div class="secondary">
