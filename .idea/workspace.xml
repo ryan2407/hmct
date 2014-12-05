@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b5dd66-e148-4b10-bf32-b953dd6b31e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/layouts/main.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/layouts/main.blade.php" />
-    </list>
+    <list default="true" id="99b5dd66-e148-4b10-bf32-b953dd6b31e1" name="Default" comment="" />
     <ignored path="LIVESITE.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
