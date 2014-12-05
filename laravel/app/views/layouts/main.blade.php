@@ -90,6 +90,12 @@
 
 @yield('slideshow')
 
+<div class="location">
+    <div class="container">
+        <h2>ALL CAMPERS ARE BRISBANE METRO ONLY - <a href="/contact">SEE OUR LOCATION</a></h2>
+    </div>
+</div>
+
 <div class="content">
     <div class="container">
         @if($errors->has())
@@ -110,6 +116,7 @@
         </div>
         @endif
     </div>
+
 @yield('content')
 </div>
 

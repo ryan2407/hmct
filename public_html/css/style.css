@@ -698,3 +698,20 @@ div.success {
     border-radius: 5px;
     border: 1px solid #29822b;
 }
+
+div.location {
+    background: #405952;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+div.location h2 {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+div.location a {
+    color: #fff;
+}
