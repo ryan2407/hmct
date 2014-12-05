@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
