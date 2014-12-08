@@ -33,4 +33,9 @@ class PagesController extends \BaseController {
         return View::make('pages.rates');
     }
 
+    public function setup()
+    {
+        return View::make('pages.setup');
+    }
+
 }
