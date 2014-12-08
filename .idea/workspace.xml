@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b5dd66-e148-4b10-bf32-b953dd6b31e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/products/show.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/products/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/database/test.sqlite" afterPath="$PROJECT_DIR$/laravel/app/database/test.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php" />
     </list>
     <ignored path="LIVESITE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/views/products/show.blade.php">
+      <file leaf-file-name="rates.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="30" selection-start="5221" selection-end="5221" vertical-scroll-proportion="0.45234492" vertical-offset="2208" max-vertical-offset="5428">
+            <state line="26" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.47806355" vertical-offset="282" max-vertical-offset="1104">
               <folding />
             </state>
           </provider>
@@ -56,7 +54,6 @@
         <option value="$PROJECT_DIR$/laravel/app/controllers/RemindersController.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/login.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php" />
         <option value="$PROJECT_DIR$/public_html/css/style.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/users/show.blade.php" />
@@ -69,6 +66,7 @@
         <option value="$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/products/show.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php" />
       </list>
     </option>
   </component>
@@ -227,6 +225,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="password" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="107" selection-start="0" selection-end="1671" vertical-scroll-proportion="0.19969743" vertical-offset="236" max-vertical-offset="1219">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="39" selection-start="532" selection-end="532" vertical-scroll-proportion="0.55673224" vertical-offset="0" max-vertical-offset="690">
@@ -536,6 +553,13 @@
     <entry file="file://$PROJECT_DIR$/laravel/app/views/products/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="30" selection-start="5221" selection-end="5221" vertical-scroll-proportion="0.45234492" vertical-offset="2208" max-vertical-offset="5428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.47806355" vertical-offset="282" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>

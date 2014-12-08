@@ -23,13 +23,8 @@ flexible. If you have any questions please don't hesitate to contact us.
                 <th>Cost Per Day</th>
             </tr>
             <tr>
-                <td>High Peak</td>
-                <td>13th December - 27th January | Easter Holidays | September School Holidays</td>
-                <td>$100 per day, 5 night minimum</td>
-            </tr>
-            <tr>
                 <td>Holiday Peak</td>
-                <td>All QLD school holidays except those listed above in 'High Peak'</td>
+                <td>All QLD school holidays</td>
                 <td>$80 day, 5 day minimum</td>
             </tr>
             <tr>
