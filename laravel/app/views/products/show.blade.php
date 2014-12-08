@@ -105,7 +105,9 @@
                         <h4>Products you're booking</h4>
                         <div class="summary">
                         </div>
-						<p class="surcharge" style="display:none;">Surcharge per day for peak times: <span class="right">${{ $product->surcharge->surcharge / 100 }}</span></p>
+                        @if($product->surcharge)
+						    <p class="surcharge" style="display:none;">Surcharge per day for peak times: <span class="right">${{ $product->surcharge->surcharge / 100 }}</span></p>
+                        @endif
                     </div>
 
                     <div class="total">
