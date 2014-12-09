@@ -28,7 +28,7 @@ class BookingRepository implements BookingRepositoryInterface {
             'user_id' => \Auth::user()->id
         ]);
 
-        //$this->biller->charge($input['deposit'], \Auth::user());
+        $this->biller->charge($input['deposit'], \Auth::user());
 
         $booking->product()->attach(explode(', ', $input['product_id']));
         $booking->save();

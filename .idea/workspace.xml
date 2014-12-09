@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b5dd66-e148-4b10-bf32-b953dd6b31e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" afterPath="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" afterPath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/controllers/UsersController.php" afterPath="$PROJECT_DIR$/laravel/app/controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/config/local/database.php" afterPath="$PROJECT_DIR$/laravel/app/config/local/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/database/production.sqlite" afterPath="$PROJECT_DIR$/laravel/app/database/production.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LIVESITE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +27,7 @@
       <file leaf-file-name="BookingRepository.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
+            <state line="30" column="8" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
               <folding />
             </state>
           </provider>
@@ -74,11 +67,11 @@
         <option value="$PROJECT_DIR$/laravel/app/views/products/show.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/laravel/app/HMCT/Users/Repo/UserRepository.php" />
-        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
         <option value="$PROJECT_DIR$/laravel/app/filters.php" />
         <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
       </list>
     </option>
   </component>
@@ -709,7 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
+        <state line="30" column="8" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>
