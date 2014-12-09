@@ -14,7 +14,7 @@ class UsersController extends \BaseController {
     {
         $this->users = $customers;
         $this->validation = $validation;
-        $this->beforeFilter('owner');
+        $this->beforeFilter('owner', ['except' => 'store']);
     }
 
 

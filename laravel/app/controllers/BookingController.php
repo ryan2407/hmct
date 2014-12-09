@@ -99,6 +99,17 @@ class BookingController extends \BaseController {
         return View::make('bookings.receipt')->with('booking', $booking);
     }
 
+    public function manual()
+    {
+        return View::make('bookings.manual');
+    }
+
+
+    public function manualStore()
+    {
+
+    }
+
 
 	/**
 	 * Remove the specified resource from storage.
