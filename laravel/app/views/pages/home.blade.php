@@ -14,7 +14,7 @@
         <div class="slideBg">
             <div class="container">
                 <a href="/product/10">
-                    <img src="images/slide-text.png" style="width: 500px;margin-top: 20px;">
+                    <img src="images/easter-text.png" style="width: 500px;margin-top: 70px;">
                 </a>
             </div>
         </div>
