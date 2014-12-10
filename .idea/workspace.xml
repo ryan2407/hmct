@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b5dd66-e148-4b10-bf32-b953dd6b31e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" afterPath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php" />
     </list>
     <ignored path="LIVESITE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookingRepository.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php">
+      <file leaf-file-name="setup.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="8" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
+            <state line="17" column="61" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5824508" vertical-offset="6" max-vertical-offset="736">
               <folding />
             </state>
           </provider>
@@ -60,7 +60,6 @@
         <option value="$PROJECT_DIR$/laravel/app/tests/BookingTest.php" />
         <option value="$PROJECT_DIR$/laravel/app/tests/ProductTest.php" />
         <option value="$PROJECT_DIR$/laravel/app/controllers/PagesController.php" />
-        <option value="$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/config/local/database.php" />
@@ -72,6 +71,7 @@
         <option value="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php" />
       </list>
     </option>
   </component>
@@ -203,159 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HMCT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HMCT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bookings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HMCT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bookings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LIVESITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -581,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="532" selection-end="532" vertical-scroll-proportion="0.55673224" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="31" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.8350983" vertical-offset="1449" max-vertical-offset="4692">
@@ -703,6 +544,13 @@
     <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="8" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5824508" vertical-offset="6" max-vertical-offset="736">
           <folding />
         </state>
       </provider>
