@@ -107,7 +107,9 @@ class BookingController extends \BaseController {
 
     public function manualStore()
     {
-
+        $this->validation->run(Input::all());
+        $this->bookings->manualBooking(Input::all());
+        return Redirect::to('user/'.Auth::user()->id);
     }
 
 

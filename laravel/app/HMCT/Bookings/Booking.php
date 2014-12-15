@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Booking extends Model {
 
-    protected $fillable = ['dates', 'user_id', 'product_id'];
+    protected $fillable = ['dates', 'user_id', 'product_id', 'deposit', 'discount'];
 
     public function user()
     {
@@ -19,7 +19,11 @@ class Booking extends Model {
     public function totalCost($product, $dates)
     {
         $dateArray = explode(', ', $dates);
-        $cost = count($dateArray) * $product->product_cost / 100;
+        $discountArray = [];
+        foreach($product->booking as $booking) {
+            $discountArray[] = $booking->discount;
+        }
+        $cost = count($dateArray) * $product->product_cost / 100 - array_sum($discountArray);
         return $cost;
     }
 

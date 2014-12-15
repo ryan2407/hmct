@@ -45,7 +45,9 @@ Route::get('booking/create', ['uses' => 'BookingController@create', 'as' => 'cre
 Route::get('booking/{id}', ['uses' => 'BookingController@show', 'as' => 'show.booking']);
 Route::post('booking/{id}', ['uses' => 'BookingController@update', 'as' => 'update.booking']);
 Route::get('booking/{id}/receipt', ['uses' => 'BookingController@receipt', 'as' => 'booking.receipt']);
-Route::get('booking/create/manual', ['before' => 'admin', 'uses' => 'BookingController@manual']);
+
+Route::get('admin/bookings/create', ['before' => 'admin', 'uses' => 'BookingController@manual']);
+Route::post('admin/bookings', ['uses' => 'BookingController@manualStore', 'as' => 'store.booking']);
 
 //CUSTOMER ROUTES
 Route::get('user/create', ['uses' => 'UsersController@create', 'as' => 'create.user']);

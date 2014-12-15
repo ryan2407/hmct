@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b5dd66-e148-4b10-bf32-b953dd6b31e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/pages/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Booking.php" afterPath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Booking.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" afterPath="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" afterPath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepositoryInterface.php" afterPath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepositoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/BookingValidation.php" afterPath="$PROJECT_DIR$/laravel/app/HMCT/Bookings/BookingValidation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/vendor/autoload.php" afterPath="$PROJECT_DIR$/laravel/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/laravel/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/laravel/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/database/production.sqlite" afterPath="$PROJECT_DIR$/laravel/app/database/production.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/bookings/receipt.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/bookings/receipt.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/users/show.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/users/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LIVESITE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/home.blade.php">
+      <file leaf-file-name="Booking.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Booking.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="87" selection-start="541" selection-end="541" vertical-scroll-proportion="0.40949556" vertical-offset="92" max-vertical-offset="1265">
+            <state line="25" column="92" selection-start="734" selection-end="734" vertical-scroll-proportion="0.7952522" vertical-offset="39" max-vertical-offset="805">
               <folding />
             </state>
           </provider>
@@ -55,7 +68,6 @@
         <option value="$PROJECT_DIR$/laravel/app/views/login.blade.php" />
         <option value="$PROJECT_DIR$/public_html/css/style.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/pages/about.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/app/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/tests/BookingTest.php" />
         <option value="$PROJECT_DIR$/laravel/app/tests/ProductTest.php" />
         <option value="$PROJECT_DIR$/laravel/app/controllers/PagesController.php" />
@@ -66,12 +78,17 @@
         <option value="$PROJECT_DIR$/laravel/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/laravel/app/HMCT/Users/Repo/UserRepository.php" />
         <option value="$PROJECT_DIR$/laravel/app/filters.php" />
-        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
-        <option value="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" />
-        <option value="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/controllers/BookingController.php" />
+        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/BookingValidation.php" />
+        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/users/show.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/bookings/receipt.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/HMCT/Bookings/Booking.php" />
       </list>
     </option>
   </component>
@@ -126,6 +143,10 @@
               <option name="myItemId" value="LIVESITE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -138,6 +159,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,7 +242,281 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HMCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HMCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HMCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HMCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bookings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HMCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bookings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LIVESITE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +563,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30642635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -283,79 +596,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="672" column="31" selection-start="11089" selection-end="11089" vertical-scroll-proportion="0.0" vertical-offset="15002" max-vertical-offset="16054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/config/local/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="55" selection-start="803" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="1403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/sidebar/camperSidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="57" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/sidebar/camperSidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="57" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2626113" vertical-offset="851" max-vertical-offset="2990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/config/local/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="437" selection-end="441" vertical-scroll-proportion="0.51186943" vertical-offset="0" max-vertical-offset="674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/SessionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/products/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="0.80030257" vertical-offset="0" max-vertical-offset="943" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/sidebar/camperSidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="63" selection-start="376" selection-end="376" vertical-scroll-proportion="0.30712166" vertical-offset="0" max-vertical-offset="674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Users/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="259" selection-end="349" vertical-scroll-proportion="0.54599404" vertical-offset="0" max-vertical-offset="674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/password/remind.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/password/reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.17062314" vertical-offset="0" max-vertical-offset="674" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/controllers/RemindersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="54" selection-start="719" selection-end="719" vertical-scroll-proportion="-0.84273" vertical-offset="1350" max-vertical-offset="2024" />
@@ -368,9 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="14" selection-start="3449" selection-end="3449" vertical-scroll-proportion="0.65826774" vertical-offset="4320" max-vertical-offset="16905">
-          <folding />
-        </state>
+        <state line="206" column="14" selection-start="3449" selection-end="3449" vertical-scroll-proportion="0.65826774" vertical-offset="4320" max-vertical-offset="16905" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/about.blade.php">
@@ -382,175 +620,265 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/emails/signup.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/emails/bookings/created.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37537092" vertical-offset="253" max-vertical-offset="1058">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37537092" vertical-offset="253" max-vertical-offset="1058" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/testing/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2626113" vertical-offset="851" max-vertical-offset="2990">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2626113" vertical-offset="851" max-vertical-offset="2990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/tests/BookingTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="746" selection-end="746" vertical-scroll-proportion="0.31750742" vertical-offset="453" max-vertical-offset="1288">
-          <folding />
-        </state>
+        <state line="29" column="30" selection-start="746" selection-end="746" vertical-scroll-proportion="0.31750742" vertical-offset="453" max-vertical-offset="1288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/tests/ProductTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="84" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.6520424" vertical-offset="604" max-vertical-offset="1265">
-          <folding />
-        </state>
+        <state line="45" column="84" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.6520424" vertical-offset="604" max-vertical-offset="1265" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/controllers/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="41" selection-start="806" selection-end="806" vertical-scroll-proportion="0.8293769" vertical-offset="292" max-vertical-offset="1081">
-          <folding />
-        </state>
+        <state line="37" column="41" selection-start="806" selection-end="806" vertical-scroll-proportion="0.8293769" vertical-offset="292" max-vertical-offset="1081" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="31" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.8350983" vertical-offset="1449" max-vertical-offset="4692">
-          <folding />
-        </state>
+        <state line="87" column="31" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.8350983" vertical-offset="1449" max-vertical-offset="4692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8427299" vertical-offset="1242" max-vertical-offset="2760">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8427299" vertical-offset="1242" max-vertical-offset="2760" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/rates.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.47806355" vertical-offset="282" max-vertical-offset="1104">
-          <folding />
-        </state>
+        <state line="26" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.47806355" vertical-offset="282" max-vertical-offset="1104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/database/production.sqlite">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/database/test.sqlite">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Users/Repo/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.64836794" vertical-offset="23" max-vertical-offset="805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="2668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="3" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.69287837" vertical-offset="614" max-vertical-offset="2438" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/bookings/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/products/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="20" selection-start="4626" selection-end="4758" vertical-scroll-proportion="0.5128593" vertical-offset="1938" max-vertical-offset="5428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/bookings/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5824508" vertical-offset="6" max-vertical-offset="736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="87" selection-start="541" selection-end="541" vertical-scroll-proportion="0.40949556" vertical-offset="92" max-vertical-offset="1265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/bootstrap/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2181009" vertical-offset="821" max-vertical-offset="1610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Config/FileLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Config/LoaderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="77" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.13918306" vertical-offset="0" max-vertical-offset="25944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/TerminableInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="673" selection-end="673" vertical-scroll-proportion="0.5801187" vertical-offset="0" max-vertical-offset="851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernelInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.7397882" vertical-offset="535" max-vertical-offset="1196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Auth/Guard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="12" selection-start="3577" selection-end="3577" vertical-scroll-proportion="5.732938" vertical-offset="0" max-vertical-offset="17273" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1081" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Auth/UserProviderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Auth/UserTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1426" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Foundation/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1322" selection-end="1322" vertical-scroll-proportion="-5.0474777" vertical-offset="4207" max-vertical-offset="6164" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="44" selection-start="3176" selection-end="3195" vertical-scroll-proportion="0.21513353" vertical-offset="2109" max-vertical-offset="4876" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/local/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="61" selection-start="813" selection-end="813" vertical-scroll-proportion="0.54599404" vertical-offset="230" max-vertical-offset="1403">
+        <state line="26" column="61" selection-start="813" selection-end="813" vertical-scroll-proportion="0.30712166" vertical-offset="391" max-vertical-offset="1403">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/users/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="74" selection-end="74" vertical-scroll-proportion="-0.6038576" vertical-offset="499" max-vertical-offset="1173">
+        <state line="6" column="42" selection-start="192" selection-end="192" vertical-scroll-proportion="0.20474778" vertical-offset="0" max-vertical-offset="674">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Users/Repo/UserRepository.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/database/migrations/2014_12_15_003737_add_deposit_and_discount_to_bookings_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.64836794" vertical-offset="23" max-vertical-offset="805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="2668">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/filters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="3" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.69287837" vertical-offset="614" max-vertical-offset="2438">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.38575667" vertical-offset="821" max-vertical-offset="1541">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/bookings/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BookingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="8" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.5222552" vertical-offset="2109" max-vertical-offset="2990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/products/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="20" selection-start="4626" selection-end="4758" vertical-scroll-proportion="0.5128593" vertical-offset="1938" max-vertical-offset="5428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/bookings/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.068249255" vertical-offset="46" max-vertical-offset="966">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/bookings/manual.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="594" selection-end="686" vertical-scroll-proportion="0.78486645" vertical-offset="161" max-vertical-offset="1288">
+        <state line="6" column="59" selection-start="163" selection-end="163" vertical-scroll-proportion="0.20474778" vertical-offset="0" max-vertical-offset="1403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BookingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="31" selection-start="2161" selection-end="2172" vertical-scroll-proportion="0.59050447" vertical-offset="2017" max-vertical-offset="3036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="71" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.39334342" vertical-offset="867" max-vertical-offset="1587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Validation/dateValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.16023739" vertical-offset="108" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Validation/CustomValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="80" selection-end="98" vertical-scroll-proportion="0.13649851" vertical-offset="23" max-vertical-offset="805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/BookingValidation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="239" selection-end="239" vertical-scroll-proportion="0.30712166" vertical-offset="0" max-vertical-offset="674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Products/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Repo/BookingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4198813" vertical-offset="361" max-vertical-offset="1104">
+        <state line="44" column="42" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.727003" vertical-offset="476" max-vertical-offset="1472">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/setup.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/users/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5824508" vertical-offset="6" max-vertical-offset="736">
+        <state line="33" column="20" selection-start="1108" selection-end="1244" vertical-scroll-proportion="0.35854766" vertical-offset="522" max-vertical-offset="1449">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/pages/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/bookings/receipt.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="87" selection-start="541" selection-end="541" vertical-scroll-proportion="0.40949556" vertical-offset="92" max-vertical-offset="1265">
+        <state line="27" column="53" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5222552" vertical-offset="269" max-vertical-offset="1150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/HMCT/Bookings/Booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="92" selection-start="734" selection-end="734" vertical-scroll-proportion="0.7952522" vertical-offset="39" max-vertical-offset="805">
           <folding />
         </state>
       </provider>

@@ -30,6 +30,18 @@
                         @endforeach
                     </td>
                 </tr>
+                @if($booking->deposit)
+                    <tr>
+                        <td>Deposit Amount</td>
+                        <td>${{ $booking->deposit }}</td>
+                    </tr>
+                @endif
+                @if($booking->discount)
+                    <tr>
+                        <td>Discounts</td>
+                        <td>${{ $booking->discount }}</td>
+                    </tr>
+                @endif
                 <tr>
                     <td>View Receipt</td>
                     <td><a href="{{ route('booking.receipt', ['id' => $booking->id]) }}">View Receipt</a></td>

@@ -38,6 +38,22 @@ class BookingRepository implements BookingRepositoryInterface {
         return $booking;
     }
 
+    public function manualBooking($input) {
+        $booking = Booking::create([
+            'dates' => $input['dates'],
+            'user_id' => $input['user_id'],
+            'deposit' => $input['deposit'],
+            'discount' => $input['discount']
+        ]);
+
+        $booking->product()->attach(explode(', ', $input['product_id']));
+        $booking->save();
+
+        \Event::fire('booking.created', [$booking]);
+
+        return $booking;
+    }
+
     public function getById($id)
     {
         return Booking::find($id);

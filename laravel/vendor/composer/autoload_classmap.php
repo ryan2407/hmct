@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AddCategoryToProductsTable' => $baseDir . '/app/database/migrations/2014_11_04_063258_add_category_to_products_table.php',
+    'AddDepositAndDiscountToBookingsTable' => $baseDir . '/app/database/migrations/2014_12_15_003737_add_deposit_and_discount_to_bookings_table.php',
     'AddExcerptToProductsTable' => $baseDir . '/app/database/migrations/2014_11_23_053546_add_excerpt_to_products_table.php',
     'AddRememberTokenToUsersTable' => $baseDir . '/app/database/migrations/2014_11_14_045233_add_remember_token_to_users_table.php',
     'AddSlugFieldToProductsTable' => $baseDir . '/app/database/migrations/2014_11_09_061528_add_slug_field_to_products_table.php',
@@ -2159,6 +2160,7 @@ return array(
     'Psr\\Log\\LoggerInterface' => $vendorDir . '/psr/log/Psr/Log/LoggerInterface.php',
     'Psr\\Log\\LoggerTrait' => $vendorDir . '/psr/log/Psr/Log/LoggerTrait.php',
     'Psr\\Log\\NullLogger' => $vendorDir . '/psr/log/Psr/Log/NullLogger.php',
+    'RemindersController' => $baseDir . '/app/controllers/RemindersController.php',
     'SebastianBergmann\\Comparator\\ArrayComparator' => $vendorDir . '/sebastian/comparator/src/ArrayComparator.php',
     'SebastianBergmann\\Comparator\\Comparator' => $vendorDir . '/sebastian/comparator/src/Comparator.php',
     'SebastianBergmann\\Comparator\\ComparisonFailure' => $vendorDir . '/sebastian/comparator/src/ComparisonFailure.php',

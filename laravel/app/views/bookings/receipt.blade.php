@@ -25,7 +25,7 @@
                 </td>
             </tr>
             <tr>
-                <td>Cost:</td>
+                <td>Cost (minus discounts if applied):</td>
                 <td>
                     @foreach($booking->product as $product)
                         ${{ $booking->totalCost($product, $booking->dates) }}

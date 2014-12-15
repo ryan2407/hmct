@@ -4,7 +4,7 @@
 <div class="container">
 <h1>Create a manual booking</h1>
 
-{{ Form::open(['method' => 'POST', 'url' => 'bookings']) }}
+{{ Form::open(['method' => 'POST', 'url' => 'admin/bookings']) }}
 
 <div class="calendar"></div>
 
@@ -24,7 +24,12 @@
 </div>
 
 <div>
-    {{ Form::label('discount', 'Discount' ) }}
+    {{ Form::label('deposit', 'Deposit Amount' ) }}
+    {{ Form::text('deposit') }}
+</div>
+
+<div>
+    {{ Form::label('discount', 'Discount Amount' ) }}
     {{ Form::text('discount') }}
 </div>
 
