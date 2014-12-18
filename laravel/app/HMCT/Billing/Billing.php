@@ -5,7 +5,7 @@ class Billing implements BillingInterface {
 
     public function charge($amount, $user)
     {
-        \Stripe::setApiKey("sk_live_4TEwsP4SqDUp1bEZhXhoFjKC");
+        \Stripe::setApiKey($_ENV['sk_live_4TEwsP4SqDUp1bEZhXhoFjKC']);
 
         // Get the credit card details submitted by the form
         $token = $_POST['stripeToken'];

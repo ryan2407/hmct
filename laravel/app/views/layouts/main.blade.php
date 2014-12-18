@@ -142,7 +142,7 @@
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript">
     // This identifies your website in the createToken call below
-    Stripe.setPublishableKey('pk_live_U6EmnmNVtUuREp7hODZAgcLB');
+    Stripe.setPublishableKey("<?php echo $_ENV['STRIPE_PUBLIC']; ?>");
     // ...
 </script>
 <script>
