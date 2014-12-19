@@ -5,8 +5,8 @@ Camper Trailer Hire Brisbane - Hire My Camper Trailer - Our Rates
 @endsection
 
 @section('description')
-See our rates for our Camper Trailers, 'The Kinkuna', 'Airlie I' and 'Airle II'. Our rates are competitive and
-flexible. If you have any questions please don't hesitate to contact us.
+    Hire my camper trailer camper trailer hire and camper trailer rental rates are highly competitive
+    and come with everything you need for your next camping trip, just hook up and drive away!
 @endsection
 
 @section('content')

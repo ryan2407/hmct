@@ -5,7 +5,8 @@
 @endsection
 
 @section('description')
-    Hire my camper trailer offers high quality camper trailers for hire in the Brisbane metro area
+    All inclusive camper trailer hire and camper trailer rentals. Everything you need for a fantastic
+holiday, quick and easy, call us today!
 @endsection
 
 @section('slideshow')

@@ -5,8 +5,8 @@ Camper Trailer Hire Brisbane - Hire My Camper Trailer - Camper Trailer Setup
 @endsection
 
 @section('description')
-Helpful videos on how to setup our camper trailers. Our Kinkuna and Airlie campers have
-identical setup procedures.
+    Setup instructions for our camper trailer hire and camper trailer rentals, setup is quick and easy
+    see our videos on how to get going on your next camping holdiay
 @endsection
 
 @section('content')

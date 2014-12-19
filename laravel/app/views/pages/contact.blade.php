@@ -5,7 +5,8 @@
 @endsection
 
 @section('description')
-    Contact us today to place a booking with one of our campers
+    Contact Hire my camper trailer for our rates on camper trailer hire and camper trailer rentals
+    in the Brisbane metro area
 @endsection
 
 @section('content')

@@ -5,7 +5,8 @@
 @endsection
 
 @section('description')
-    Here at Hire My Camper Trailer, our aim is to make camping a fun, comfortable and affordable experience for you and your family.
+    Hire my camper trailer are a small family run Brisbane based company dedicated to making
+    camper trailer hire and camper trailer rental affordable and easy.
 @endsection
 
 @section('content')
