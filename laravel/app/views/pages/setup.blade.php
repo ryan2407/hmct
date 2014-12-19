@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-Camper Trailer Hire Brisbane - Hire My Camper Trailer - Camper Trailer Setup
+Hire My Camper Trailer - Camper Trailer Hire Brisbane - Camper Trailer Setup
 @endsection
 
 @section('description')
